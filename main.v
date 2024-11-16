@@ -217,7 +217,7 @@ begin
   initial
 	begin
 		clear = 0;
-		#10 clear = 1;
+		#155 clear = 1;
 	end
 
 

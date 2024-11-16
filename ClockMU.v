@@ -32,8 +32,6 @@ module CMU(
     assign clk_o = clk_i;
     
     reg [1:0] alter; 
-    
-    
 
     always@(posedge clk_i)
     begin
@@ -43,7 +41,7 @@ module CMU(
             alter <= alter + 1;
     end
    
-    assign phi1 = alter == 1 && !(ssp_intr_i[0]) && clear_i;
-    assign phi2 = alter == 3 && !(ssp_intr_i[0]) && clear_i;
+    assign phi1 = alter == 1 && !(ssp_intr_i[0]);
+    assign phi2 = alter == 3 && !(ssp_intr_i[0]);
     
 endmodule
