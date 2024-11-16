@@ -1,0 +1,272 @@
+{
+    "detect_skip": [
+        "detect_skip",
+        "GVb8I",
+        "module",
+        1
+    ],
+    "forward": [
+        "forward",
+        "Bqe3V",
+        "module",
+        2
+    ],
+    "exc": [
+        "exc",
+        "nzNTq",
+        "module",
+        3
+    ],
+    "din": [
+        "din",
+        "R7ijF",
+        "module",
+        4
+    ],
+    "ar": [
+        "ar",
+        "N3xBm",
+        "module",
+        5
+    ],
+    "ir": [
+        "ir",
+        "qFdzq",
+        "module",
+        6
+    ],
+    "aop": [
+        "aop",
+        "wd193",
+        "module",
+        7
+    ],
+    "bop": [
+        "bop",
+        "NfcN8",
+        "module",
+        8
+    ],
+    "count": [
+        "count",
+        "J6DA9",
+        "module",
+        9
+    ],
+    "getreg": [
+        "getreg",
+        "P39Py",
+        "module",
+        10
+    ],
+    "regfile": [
+        "regfile",
+        "Nxspn",
+        "module",
+        11
+    ],
+    "mapaluops": [
+        "mapaluops",
+        "egEtn",
+        "module",
+        12
+    ],
+    "arm_alu": [
+        "arm_alu",
+        "v4309",
+        "module",
+        13
+    ],
+    "arm_ctrl": [
+        "arm_ctrl",
+        "p7dgU",
+        "module",
+        14
+    ],
+    "arm_ctrl_comb": [
+        "arm_ctrl_comb",
+        "u3Jzp",
+        "module",
+        15
+    ],
+    "TOP": [
+        "TOP",
+        "ThQKx",
+        "module",
+        16
+    ],
+    "MASTER": [
+        "MASTER",
+        "M6Yd5",
+        "module",
+        43
+    ],
+    "SLAVE": [
+        "SLAVE",
+        "gwN8c",
+        "module",
+        44
+    ],
+    "CMU": [
+        "CMU",
+        "buZ79",
+        "module",
+        45
+    ],
+    "dffs_c": [
+        "dffs_c",
+        "xQuV1",
+        "module",
+        17
+    ],
+    "dffs_c_0001": [
+        "dffs_c_0001",
+        "LHmTZ",
+        "module",
+        18
+    ],
+    "dffs_c_0003": [
+        "dffs_c_0003",
+        "L5g3S",
+        "module",
+        19
+    ],
+    "dffs_c_0004": [
+        "dffs_c_0004",
+        "pMi0W",
+        "module",
+        20
+    ],
+    "latch_c": [
+        "latch_c",
+        "GBexk",
+        "module",
+        21
+    ],
+    "latch_c_0001": [
+        "latch_c_0001",
+        "Ey5WQ",
+        "module",
+        22
+    ],
+    "mux2": [
+        "mux2",
+        "i3rNP",
+        "module",
+        23
+    ],
+    "mux2_0005": [
+        "mux2_0005",
+        "J2ypR",
+        "module",
+        24
+    ],
+    "mux2_0006": [
+        "mux2_0006",
+        "x7Idd",
+        "module",
+        25
+    ],
+    "mux3_0000": [
+        "mux3_0000",
+        "pYk9H",
+        "module",
+        26
+    ],
+    "mux4": [
+        "mux4",
+        "s6Cv4",
+        "module",
+        27
+    ],
+    "or2": [
+        "or2",
+        "DgZQS",
+        "module",
+        28
+    ],
+    "stdadd": [
+        "stdadd",
+        "i9tgy",
+        "module",
+        29
+    ],
+    "stdaddh": [
+        "stdaddh",
+        "mVamE",
+        "module",
+        30
+    ],
+    "stdand2": [
+        "stdand2",
+        "ZdMhD",
+        "module",
+        31
+    ],
+    "stdinv": [
+        "stdinv",
+        "n1EpD",
+        "module",
+        32
+    ],
+    "stdlatch_c": [
+        "stdlatch_c",
+        "ZmrJv",
+        "module",
+        33
+    ],
+    "stdmux2": [
+        "stdmux2",
+        "tW4Tj",
+        "module",
+        34
+    ],
+    "stdmux4": [
+        "stdmux4",
+        "Wd2Cz",
+        "module",
+        35
+    ],
+    "stdnor2": [
+        "stdnor2",
+        "Nyiwc",
+        "module",
+        36
+    ],
+    "stdor2": [
+        "stdor2",
+        "GZYEu",
+        "module",
+        37
+    ],
+    "dff_generic": [
+        "dff_generic",
+        "hUnMK",
+        "module",
+        38
+    ],
+    "dff_generic_0000": [
+        "dff_generic_0000",
+        "uTrT9",
+        "module",
+        39
+    ],
+    "dff_generic_0001": [
+        "dff_generic_0001",
+        "LdgHB",
+        "module",
+        40
+    ],
+    "dff_generic_0003": [
+        "dff_generic_0003",
+        "iW8Nm",
+        "module",
+        41
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        42
+    ]
+}

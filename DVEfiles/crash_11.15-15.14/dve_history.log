@@ -1,0 +1,136 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Layout -key child_console_size_x -value 1534
+gui_set_state_value -category Layout -key child_console_size_y -value 159
+gui_set_state_value -category Layout -key child_data_coltype -value 86
+gui_set_state_value -category Layout -key child_data_colvalue -value 119
+gui_set_state_value -category Layout -key child_data_colvariable -value 163
+gui_set_state_value -category Layout -key child_data_size_x -value 358
+gui_set_state_value -category Layout -key child_data_size_y -value 629
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 154
+gui_set_state_value -category Layout -key child_hier_size_y -value 629
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1025
+gui_set_state_value -category Layout -key child_source_size_y -value 624
+gui_set_state_value -category Layout -key child_wave_colname -value 218
+gui_set_state_value -category Layout -key child_wave_colvalue -value 218
+gui_set_state_value -category Layout -key child_wave_left -value 440
+gui_set_state_value -category Layout -key child_wave_right -value 1072
+gui_set_state_value -category Layout -key main_pos_x -value 1986
+gui_set_state_value -category Layout -key main_pos_y -value 390
+gui_set_state_value -category Layout -key main_size_x -value 3520
+gui_set_state_value -category Layout -key main_size_y -value 1277
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1522
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 766
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 2053
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 374
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 3570
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 1244
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd2|DLPane.1|pages|Data.1|hbox|textfilter -value_type string -value {databus clk clock phi2}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_VPDCombo} -value_type string -value inter.vpd
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_argsCombo} -value_type string -value {{-ucligui }}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_curDirCombo} -value_type string -value /home/ecelrc/students/blui/vlsi1/lab3/rtl
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_exeCombo} -value_type string -value {/home/ecelrc/students/blui/vlsi1/lab3/rtl/simv ./simv}
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
+gui_list_expand -id  Hier.1   TOP
+gui_list_select -id Hier.1 -current_item_name TOP.wishmaster -current_item_type Scope  -selected  { TOP.wishmaster   }
+gui_list_expand -id  Hier.1   TOP.spp
+gui_list_select -id Hier.1 -current_item_name TOP.spp.RX -current_item_type Scope  -selected  { TOP.spp.RX   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Hier.1 { TOP.spp.RX } -insertionbar
+gui_list_select -id Hier.1 -current_item_name TOP.spp.TX -current_item_type Scope  -selected  { TOP.spp.TX   }
+gui_list_add -id Wave.1 -from Hier.1 { TOP.spp.TX } -insertionbar
+gui_list_collapse -id  Wave.1   RX
+gui_list_expand -id  Wave.1   RX
+gui_sim_continue 8000 
+gui_sim_continue 8000 
+gui_wv_scroll_hslidermove -id  Wave.1 15937
+gui_zoom -window Wave.1 -full
+gui_close_window -window TopLevel.2
+gui_list_select -id Hier.1 -current_item_name TOP -current_item_type Scope  -selected  { TOP   }
+gui_list_select -id Data.1 -selected  { {TOP.R0_U[31:0]}   }
+gui_list_select -id Data.1 -selected  { {TOP.R0_U[31:0]}  {TOP.R1_U[31:0]}   }
+gui_list_select -id Data.1 -selected  { {TOP.R0_U[31:0]}  {TOP.R1_U[31:0]}  {TOP.R2_U[31:0]}   }
+gui_list_select -id Data.1 -selected  { {TOP.R0_U[31:0]}  {TOP.R1_U[31:0]}  {TOP.R2_U[31:0]}  {TOP.R3_U[31:0]}   }
+gui_list_select -id Data.1 -selected  { {TOP.R0_U[31:0]}  {TOP.R1_U[31:0]}  {TOP.R2_U[31:0]}  {TOP.R3_U[31:0]}  {TOP.R4_U[31:0]}   }
+gui_list_select -id Data.1 -selected  { {TOP.R0_U[31:0]}  {TOP.R1_U[31:0]}  {TOP.R2_U[31:0]}  {TOP.R3_U[31:0]}  {TOP.R4_U[31:0]}  {TOP.R5_U[31:0]}   }
+gui_list_select -id Data.1 -selected  { {TOP.R0_U[31:0]}  {TOP.R1_U[31:0]}  {TOP.R2_U[31:0]}  {TOP.R3_U[31:0]}  {TOP.R4_U[31:0]}  {TOP.R5_U[31:0]}  {TOP.R6_U[31:0]}   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {TOP.R0_U[31:0]} {TOP.R1_U[31:0]} {TOP.R2_U[31:0]} {TOP.R3_U[31:0]} {TOP.R4_U[31:0]} {TOP.R5_U[31:0]} {TOP.R6_U[31:0]} } -insertionbar
+gui_set_env SIMSETUP::SIMCURRENTDIR /home/ecelrc/students/blui/vlsi1/lab3/rtl
+gui_sim_restart
+gui_sim_continue 8000 
+gui_sim_continue 8000 
+gui_sim_continue 8000 
+gui_sim_continue 8000 
+gui_close_window -window TopLevel.2
+gui_list_expand -id  Hier.1   TOP
+gui_list_expand -id  Hier.1   TOP.spp
+gui_list_select -id Hier.1 -current_item_name TOP.spp.TX -current_item_type Scope  -selected  { TOP.spp.TX   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Hier.1 { TOP.spp.TX } -insertionbar
+gui_list_select -id Hier.1 -current_item_name TOP.spp.RX -current_item_type Scope  -selected  { TOP.spp.RX   }
+gui_list_create_group_when_add -wave -enable
+gui_list_add -id Wave.1 -from Hier.1 { TOP.spp.RX } -insertionbar
+gui_wv_zoom_timerange -id  Wave.1 0 355
+gui_wv_scrollright -id  Wave.1  page
+gui_wv_scrollright -id  Wave.1  page
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_wv_scroll_hslidermove -id  Wave.1 723
+gui_wv_scroll_hslidermove -id  Wave.1 501
+gui_wv_zoom_timerange -id  Wave.1 2672 8272
+gui_list_select -id Hier.1 -current_item_name TOP.wishslave -current_item_type Scope  -selected  { TOP.wishslave   }
+gui_list_add -id Wave.1 -from Hier.1 { TOP.wishslave } -insertionbar
+gui_wv_zoom_timerange -id  Wave.1 2672 8352
+gui_sim_restart
+gui_sim_continue 8000 
+gui_sim_continue 8000 
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_wv_scroll_hslidermove -id  Wave.1 3859
+gui_wv_scroll_hslidermove -id  Wave.1 3322
+gui_wv_scroll_hslidermove -id  Wave.1 5103
+gui_sim_continue 8000 
+gui_wv_scroll_hslidermove -id  Wave.1 6747
+gui_wv_scroll_hslidermove -id  Wave.1 6226
+gui_wv_scroll_hslidermove -id  Wave.1 8092
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scroll_hslidermove -id  Wave.1 8273
+gui_wv_scroll_hslidermove -id  Wave.1 6674
+gui_wv_scroll_hslidermove -id  Wave.1 6880
+gui_wv_scroll_hslidermove -id  Wave.1 6723
+gui_wv_scroll_hslidermove -id  Wave.1 4991
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_wv_scroll_hslidermove -id  Wave.1 496
+gui_marker_move -id  Wave.1 C1 4745
+gui_marker_select -id  Wave.1 { C1 }
+gui_marker_move -id  Wave.1 C1 3695
+gui_marker_move -id  Wave.1 C1 3845
+gui_wv_scroll_hslidermove -id  Wave.1 826
+gui_wv_scroll_hslidermove -id  Wave.1 383
+gui_marker_move -id  Wave.1 C1 4417
+gui_wv_scroll_hslidermove -id  Wave.1 383
+gui_marker_move -id  Wave.1 C1 4235
+gui_marker_move -id  Wave.1 C1 4715
+gui_marker_move -id  Wave.1 C1 4220

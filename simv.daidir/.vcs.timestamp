@@ -1,0 +1,214 @@
+0 
+30
++cli+4
++itf+/usr/local/packages/synopsys_2022/vcs/T-2022.06/linux64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/local/packages/synopsys_2022/vcs/T-2022.06/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/local/packages/synopsys_2022/vcs/T-2022.06/linux64/lib/libvirsim.so /usr/local/packages/synopsys_2022/vcs/T-2022.06/linux64/lib/liberrorinf.so /usr/local/packages/synopsys_2022/vcs/T-2022.06/linux64/lib/libsnpsmalloc.so /usr/local/packages/synopsys_2022/vcs/T-2022.06/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/usr/local/packages/synopsys_2022/vcs/T-2022.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/local/packages/synopsys_2022/vcs/T-2022.06/include
+-Mxllcflags=
+-Xcbug=0x1
+-debug=3
+-f master
+-full64
+-gen_obj
+-picarchive
+/usr/local/packages/synopsys_2022/vcs/T-2022.06/linux64/bin/vcs1
+master
+57
+which_declare=declare -f
+XDG_SESSION_ID=926
+XDG_RUNTIME_DIR=/run/user/29590
+XDG_DATA_DIRS=/home/ecelrc/students/blui//.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VMR_MODE_FLAG=64
+VC_STATIC_HOME=/usr/local/packages/synopsys_2020/vc_static/T-2022.06-SP1
+VCS_TARGET_ARCH=linux64
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/usr/local/packages/synopsys_2022/vcs/T-2022.06/
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/local/packages/synopsys_2022/vcs/T-2022.06/linux64
+TCLSH=/usr/bin/tclsh
+SYNOPSYS_SYN_ROOT=/usr/local/packages/synopsys_2022/syn
+SYNOPSYS_LC_ROOT=/usr/local/packages/synopsys_2022/lc/T-2022.03-SP5
+STROOT=/usr/local/packages/synopsys_2022/sentaurus/T-2022.03-SP1
+SSH_TTY=/dev/pts/30
+SSH_CONNECTION=172.29.193.35 56462 10.157.72.74 22
+SSH_CLIENT=172.29.193.35 56462 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPS_VCS_CLANG_PATH=/usr/local/packages/synopsys_2022/vcs/T-2022.06//linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SNPSLMD_LICENSE_FILE_modshare=/usr/local/packages/synopsys_2022/key:1
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+PATH_modshare=/usr/local/packages/synopsys_2022/QuantumATK/QuantumATK-U-2022.12-SP1/bin:2:/usr/local/packages/synopsys_2022/fm/T-2022.03-SP3/bin:1:/usr/bin:1:/usr/local/packages/synopsys_2022/verdi/T-2022.06-SP2/bin:1:/usr/local/packages/synopsys_2022/QuantumATK/QuantumATK-U-2022.12-SP1/libexec:1:/usr/local/packages/synopsys_2022/taurus_medici/T_2022.03/bin:1:/usr/local/bin:1:/usr/share/Modules/bin:1:/usr/local/packages/synopsys_2022/finesim/T-2022.06-SP2/bin:1:/usr/local/packages/synopsys_2022/prime/T-2022.03-SP5/bin:1:/usr/local/packages/synopsys_2022/wv/T-2022.06-SP2/bin:1:/usr/local/packages/synopsys_2022/primewave/T-2022.06/bin:1:/usr/local/packages/synopsys_2022/starrc/U-2022.12-SP3/bin:1:/usr/local/packages/synopsys_2022/syn/T-2022.03-SP2/linux64/syn/bin:1:/usr/local/packages/synopsys_2022/vcs/T-2022.06/bin:1:/usr/local/packages/synopsys_2022/taurus_tsuprem4/T_2022.03/bin:1:/usr/sbin:1:/usr/local/packages/synopsys_2022/hspice/T-2022.06/hspice/bin:1:/usr/local/sbin:1:/usr/local/packages/synopsys_2022/sentaurus/T-2022.03-SP1/bin:1:/usr/local/packages/synopsys_2022/lc/T-2022.03-SP5/bin:1:/usr/local/packages/synopsys_2022/vc_static/T-2022.06-SP1/bin:2:/usr/local/packages/synopsys_2022/syn/T-2022.03-SP2/bin:2:/usr/local/packages/synopsys_2022/icc2/T-2022.03-SP3/bin:1
+OVA_UUM=0
+MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+MODULESHOME=/home/projects/Modules
+MODULEPATH_modshare=/etc/scl/modulefiles:999999999:/home/projects/Modules/tools:1:/home/projects/Modules/projects:1:/home/projects/Modules/base:1:/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2
+MODULEPATH=/home/projects/Modules/projects:/home/projects/Modules/tools:/home/projects/Modules/base:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+MANPATH_modshare=/home/projects/Modules/man:1::1:/usr/share/man:1
+MAILPATH=/var/spool/mail/blui
+LOADEDMODULES_modshare=:999999999:synopsys/2022:1:system:1:modules:1:ece-defaults:1:aliases:1
+LOADEDMODULES=:modules:system:aliases:ece-defaults:synopsys/2022
+LM_LICENSE_FILE_modshare=/usr/local/packages/synopsys_2022/key:1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+HISTCONTROL=ignoredups
+GDK_BACKEND=x11
+DVE_HOME=/usr/local/packages/synopsys_2022/vcs/T-2022.06/
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-SLIbE2Egz2,guid=e27e3ebfe6dca052cb23661d6738feeb
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+BASH_FUNC_switchml%%=() {  typeset swfound=1;_ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then_ typeset swname='main';_ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then_ typeset swfound=0;_ unset MODULES_USE_COMPAT_VERSION;_ fi;_ else_ typeset swname='compatibility';_ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then_ typeset swfound=0;_ MODULES_USE_COMPAT_VERSION=1;_ export MODULES_USE_COMPAT_VERSION;_ fi;_ fi;_ if [ $swfound -eq 0 ]; then_ echo "Switching to Modules $swname version";_ source /usr/share/Modules/init/bash;_ else_ echo "Cannot switch to Modules $swname version, command not found";_ return 1;_ fi_}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then_ eval "module $@";_ else_ /usr/bin/scl "$@";_ fi_}
+BASH_FUNC_module%%=() {  eval `$TCLSH /home/projects/Modules/modulecmd.tcl bash $*`_}
+BASH_FUNC_ml%%=() {  module ml "$@"_}
+BASH_FUNC__module_raw%%=() {  unset _mlshdbg;_ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then_ case "$-" in _ *v*x*)_ set +vx;_ _mlshdbg='vx'_ ;;_ *v*)_ set +v;_ _mlshdbg='v'_ ;;_ *x*)_ set +x;_ _mlshdbg='x'_ ;;_ *)_ _mlshdbg=''_ ;;_ esac;_ fi;_ unset _mlre _mlIFS;_ if [ -n "${IFS+x}" ]; then_ _mlIFS=$IFS;_ fi;_ IFS=' ';_ for _mlv in ${MODULES_RUN_QUARANTINE:-};_ do_ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then_ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then_ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";_ fi;_ _mlrv="MODULES_RUNENV_${_mlv}";_ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";_ fi;_ done;_ if [ -n "${_mlre:-}" ]; then_ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;_ else_ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;_ fi;_ _mlstatus=$?;_ if [ -n "${_mlIFS+x}" ]; then_ IFS=$_mlIFS;_ else_ unset IFS;_ fi;_ unset _mlre _mlv _mlrv _mlIFS;_ if [ -n "${_mlshdbg:-}" ]; then_ set -$_mlshdbg;_ fi;_ unset _mlshdbg;_ return $_mlstatus_}
+0
+1
+747113000 models2
+85
+1667274330 models2/dff_leaf_generic.v
+1667274330 models2/dff_generic.v
+1667274330 models2/alu_generic.v
+1667274331 models2/zero.v
+1667274331 models2/xor2.v
+1667274331 models2/tribuf.v
+1667274331 models2/stdxor2.v
+1667274331 models2/stdor2.v
+1667274331 models2/stdoa21.v
+1667274331 models2/stdnor3.v
+1667274331 models2/stdnor2.v
+1667274331 models2/stdnand2.v
+1667274331 models2/stdmux4.v
+1667274331 models2/stdmux3.v
+1667274331 models2/stdmux2.v
+1667274331 models2/stdlatch_c.v
+1667274331 models2/stdlatch.v
+1667274331 models2/stdinv.v
+1667274331 models2/stddff_p.v
+1667274331 models2/stddff_cq.v
+1667274331 models2/stddff_c.v
+1667274331 models2/stddff.v
+1667274331 models2/stdbufinv.v
+1667274331 models2/stdbuf.v
+1667274331 models2/stdao222.v
+1667274331 models2/stdand4.v
+1667274331 models2/stdand3.v
+1667274331 models2/stdand2.v
+1667274331 models2/stdaddh.v
+1667274331 models2/stdadd.v
+1667274331 models2/regfile2r.v
+1667274331 models2/or2.v
+1667274331 models2/nor2.v
+1667274331 models2/mux4.v
+1667274331 models2/mux3.v
+1667274331 models2/mux2.v
+1667274331 models2/latch_c.v
+1667274331 models2/incbar.v
+1667274331 models2/inc.v
+1667274330 models2/dffs_cq.v
+1667274330 models2/dffs_c.v
+1667274330 models2/dff_c.v
+1667274330 models2/compl.v
+1667274330 models2/buff.v
+1667274330 models2/barrelfun.v
+1667274330 models2/and2.v
+1667274330 models2/aluv.v
+1667274331 signals2.defs
+1667274331 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/signals2.defs
+1667274331 signal.defs
+1667274331 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/signal.defs
+1667274331 test.config
+1667274331 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/test.config
+1731706115 FIFORX.v
+1731631902 FIFOTX.v
+1731788517 ClockMU.v
+1731716727 wish_slave.v
+1731718104 wish_master.v
+1731716129 SSPCLK.v
+1731716081 SSP.v
+1667274330 mem2.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/mem2.v
+1731783650 main.v
+1667274330 arm.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/arm.v
+1667275475 arm_dp.v
+1667275475 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/arm_dp.v
+1667274330 arm_ctrl_comb.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/arm_ctrl_comb.v
+1667274330 arm_ctrl_struct.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/arm_ctrl_struct.v
+1667275275 shift.v
+1667275275 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/shift.v
+1667274331 shift_carry.v
+1667274331 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/shift_carry.v
+1667274330 arm_alu.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/arm_alu.v
+1667274330 aluflags.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/aluflags.v
+1667275087 mapaluops.v
+1667275087 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/mapaluops.v
+1667274331 regfile.v
+1667274331 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/regfile.v
+1667274330 decode_addresses.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/decode_addresses.v
+1667274331 regfile_struct.v
+1667274331 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/regfile_struct.v
+1667274330 getreg.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/getreg.v
+1667274846 getregfromlist.v
+1667274846 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/getregfromlist.v
+1667274330 count.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/count.v
+1667274330 bop.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/bop.v
+1667274330 aop.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/aop.v
+1667274330 ir.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/ir.v
+1667274330 ar.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/ar.v
+1667274330 dout.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/dout.v
+1667275350 din.v
+1667275350 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/din.v
+1667274330 exc.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/exc.v
+1667274330 forward.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/forward.v
+1667274330 detect_skip.v
+1667274330 /home/ecelrc/students/soruganti/vlsi_22/lab3/arm/rtl/detect_skip.v
+1731632799 master
+1654052745 /usr/local/packages/synopsys_2022/vcs/T-2022.06/linux64/lib/vcsdp.tab
+4
+1654054205 /usr/local/packages/synopsys_2022/vcs/T-2022.06/linux64/lib/libvirsim.so
+1654053585 /usr/local/packages/synopsys_2022/vcs/T-2022.06/linux64/lib/liberrorinf.so
+1654053489 /usr/local/packages/synopsys_2022/vcs/T-2022.06/linux64/lib/libsnpsmalloc.so
+1654053565 /usr/local/packages/synopsys_2022/vcs/T-2022.06/linux64/lib/libvfs.so
+1731788588 simv.daidir
+-1 partitionlib
