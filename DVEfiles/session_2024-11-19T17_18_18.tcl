@@ -1,13 +1,13 @@
 # Begin_DVE_Session_Save_Info
 # DVE full session
-# Saved on Sat Nov 16 14:41:49 2024
+# Saved on Sat Nov 16 15:21:45 2024
 # Designs open: 1
 #   Sim: /home/ecelrc/students/blui/vlsi1/lab3/rtl/simv
 # Toplevel windows open: 1
 # 	TopLevel.1
 #   Source.1: TOP
 #   Group count = 1
-#   Group clkmanage signal count = 15
+#   Group Group1 signal count = 7
 # End_DVE_Session_Save_Info
 
 # DVE version: T-2022.06_Full64
@@ -17,7 +17,7 @@
 #<Session mode="Full" path="/home/ecelrc/students/blui/vlsi1/lab3/rtl/DVEfiles/session.tcl" type="Debug">
 
 gui_set_loading_session_type Post
-gui_continuetime_set -value 10000
+gui_continuetime_set -value 1000
 
 # Close design
 if { [gui_sim_state -check active] } {
@@ -66,7 +66,7 @@ if {![gui_exist_window -window TopLevel.1]} {
 } else { 
     set TopLevel.1 TopLevel.1
 }
-gui_show_window -window ${TopLevel.1} -show_state normal -rect {{8 31} {1518 894}}
+gui_show_window -window ${TopLevel.1} -show_state normal -rect {{8 31} {1542 918}}
 
 # ToolBar settings
 gui_set_toolbar_attributes -toolbar {TimeOperations} -dock_state top
@@ -113,23 +113,23 @@ gui_show_toolbar -toolbar {Testbench}
 # End ToolBar settings
 
 # Docked window settings
-set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 115]
+set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 112]
 catch { set Hier.1 [gui_share_window -id ${HSPane.1} -type Hier] }
-gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 115
+gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 112
 gui_set_window_pref_key -window ${HSPane.1} -key dock_height -value_type integer -value -1
 gui_set_window_pref_key -window ${HSPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 114} {height 645} {dock_state left} {dock_on_new_line true} {child_hier_colhier 140} {child_hier_coltype 100} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
-set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 319]
+gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 111} {height 672} {dock_state left} {dock_on_new_line true} {child_hier_colhier 140} {child_hier_coltype 100} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
+set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 316]
 catch { set Data.1 [gui_share_window -id ${DLPane.1} -type Data] }
-gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 319
-gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 645
+gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 316
+gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 672
 gui_set_window_pref_key -window ${DLPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 318} {height 645} {dock_state left} {dock_on_new_line true} {child_data_colvariable 163} {child_data_colvalue 119} {child_data_coltype 86} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
-set Console.1 [gui_create_window -type Console -parent ${TopLevel.1} -dock_state bottom -dock_on_new_line true -dock_extent 120]
+gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 315} {height 672} {dock_state left} {dock_on_new_line true} {child_data_colvariable 163} {child_data_colvalue 119} {child_data_coltype 86} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
+set Console.1 [gui_create_window -type Console -parent ${TopLevel.1} -dock_state bottom -dock_on_new_line true -dock_extent 117]
 gui_set_window_pref_key -window ${Console.1} -key dock_width -value_type integer -value 1476
-gui_set_window_pref_key -window ${Console.1} -key dock_height -value_type integer -value 120
+gui_set_window_pref_key -window ${Console.1} -key dock_height -value_type integer -value 117
 gui_set_window_pref_key -window ${Console.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${Console.1} {{left 0} {top 0} {width 1510} {height 119} {dock_state bottom} {dock_on_new_line true}}
+gui_update_layout -id ${Console.1} {{left 0} {top 0} {width 1534} {height 116} {dock_state bottom} {dock_on_new_line true}}
 #### Start - Readjusting docked view's offset / size
 set dockAreaList { top left right bottom }
 foreach dockArea $dockAreaList {
@@ -199,14 +199,13 @@ gui_set_time_units 1s
 # Global: Signal Compare
 
 # Global: Signal Groups
-gui_load_child_values {TOP.clkmanage}
 
 
-set _session_group_1 clkmanage
+set _session_group_1 Group1
 gui_sg_create "$_session_group_1"
-set clkmanage "$_session_group_1"
+set Group1 "$_session_group_1"
 
-gui_sg_addsignal -group "$_session_group_1" { TOP.clkmanage.clk_o TOP.clkmanage.alter TOP.clkmanage.ssp_intr_i TOP.clkmanage.clear_i TOP.clkmanage.clear_o TOP.clkmanage.phi1 TOP.clkmanage.phi2 TOP.clkmanage.clk_i TOP.R0_U TOP.R1_U TOP.R2_U TOP.R3_U TOP.R4_U TOP.R5_U TOP.R6_U }
+gui_sg_addsignal -group "$_session_group_1" { TOP.R0_U TOP.R1_U TOP.R2_U TOP.R3_U TOP.R4_U TOP.R5_U TOP.R6_U }
 
 # Global: Highlighting
 
@@ -216,7 +215,7 @@ gui_change_stack_mode -mode list
 # Post database loading setting...
 
 # Restore C1 time
-gui_set_time -C1_only 21000
+gui_set_time -C1_only 14000
 
 
 
@@ -260,7 +259,7 @@ gui_view_scroll -id ${Hier.1} -horizontal -set 0
 gui_src_value_annotate -id ${Source.1} -switch false
 gui_set_env TOGGLE::VALUEANNOTATE 0
 gui_open_source -id ${Source.1}  -replace -active TOP /home/ecelrc/students/blui/vlsi1/lab3/rtl/main.v
-gui_view_scroll -id ${Source.1} -vertical -set 2040
+gui_view_scroll -id ${Source.1} -vertical -set 1005
 gui_src_set_reusable -id ${Source.1}
 # Restore toplevel window zorder
 # The toplevel window could be closed if it has no view/pane
