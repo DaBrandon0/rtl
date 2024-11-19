@@ -1,16 +1,17 @@
 # Begin_DVE_Session_Save_Info
 # DVE restart session
-# Saved on Sat Nov 16 15:25:40 2024
+# Saved on Tue Nov 19 16:47:08 2024
 # Designs open: 1
 #   Sim: /home/ecelrc/students/blui/vlsi1/lab3/rtl/simv
 # Toplevel windows open: 2
 # 	TopLevel.1
 # 	TopLevel.2
 #   Source.1: TOP
-#   Wave.1: 4 signals
-#   Group count = 2
+#   Wave.1: 33 signals
+#   Group count = 3
 #   Group Group1 signal count = 7
-#   Group slow signal count = 4
+#   Group spp signal count = 23
+#   Group RX signal count = 10
 # End_DVE_Session_Save_Info
 
 # DVE version: T-2022.06_Full64
@@ -20,7 +21,7 @@
 #<Session mode="Restart" path=".restartSimSession.tcl" type="Debug">
 
 gui_set_loading_session_type Restart
-gui_continuetime_set -value 1000
+gui_continuetime_set -value 10000
 gui_clear_window -type Wave
 gui_clear_window -type List
 
@@ -60,7 +61,7 @@ gui_sync_global -id ${TopLevel.2} -option true
 
 # MDI window settings
 set Wave.1 Wave.1
-gui_update_layout -id ${Wave.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_wave_left 427} {child_wave_right 1042} {child_wave_colname 211} {child_wave_colvalue 211} {child_wave_col1 0} {child_wave_col2 1}}
+gui_update_layout -id ${Wave.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_wave_left 427} {child_wave_right 1041} {child_wave_colname 248} {child_wave_colvalue 175} {child_wave_col1 0} {child_wave_col2 1}}
 
 # End MDI window settings
 
@@ -87,7 +88,8 @@ gui_set_time_units 1s
 # Global: Signal Compare
 
 # Global: Signal Groups
-gui_load_child_values {TOP.spp.slow}
+gui_load_child_values {TOP.spp}
+gui_load_child_values {TOP.spp.RX}
 
 
 set _session_group_1 Group1
@@ -96,11 +98,17 @@ set Group1 "$_session_group_1"
 
 gui_sg_addsignal -group "$_session_group_1" { TOP.R0_U TOP.R1_U TOP.R2_U TOP.R3_U TOP.R4_U TOP.R5_U TOP.R6_U }
 
-set _session_group_2 slow
+set _session_group_2 spp
 gui_sg_create "$_session_group_2"
-set slow "$_session_group_2"
+set spp "$_session_group_2"
 
-gui_sg_addsignal -group "$_session_group_2" { TOP.spp.slow.PCLK TOP.spp.slow.div2 TOP.spp.slow.CLEAR_B TOP.spp.slow.SSPCLK }
+gui_sg_addsignal -group "$_session_group_2" { TOP.spp.SSPFSSOUT TOP.spp.PRDATA TOP.spp.PWRITE TOP.spp.startrx TOP.spp.SSPTXINTR TOP.spp.TxData TOP.spp.PCLK TOP.spp.SSPOE_B TOP.spp.PSEL TOP.spp.starttx TOP.spp.SSPFSSIN TOP.spp.CLEAR_B TOP.spp.validTx TOP.spp.finrx TOP.spp.finish TOP.spp.PWDATA TOP.spp.SSPRXD TOP.spp.fintx TOP.spp.SSPCLKOUT TOP.spp.SSPRXINTR TOP.spp.SSPCLKIN TOP.spp.RxData TOP.spp.SSPTXD }
+
+set _session_group_3 RX
+gui_sg_create "$_session_group_3"
+set RX "$_session_group_3"
+
+gui_sg_addsignal -group "$_session_group_3" { TOP.spp.RX.PRDATA TOP.spp.RX.fifopoint TOP.spp.RX.PWRITE TOP.spp.RX.PCLK TOP.spp.RX.PSEL TOP.spp.RX.CLEAR_B TOP.spp.RX.fifomem TOP.spp.RX.fin TOP.spp.RX.SSPRXINTR TOP.spp.RX.RxData }
 
 # Global: Highlighting
 
@@ -112,6 +120,7 @@ gui_change_stack_mode -mode list
 # Save global setting...
 
 # Wave/List view global setting
+gui_list_create_group_when_add -wave -enable
 gui_cov_show_value -switch false
 
 # Close all empty TopLevel windows
@@ -131,14 +140,14 @@ gui_list_set_filter -id ${Hier.1} -text {*}
 gui_change_design -id ${Hier.1} -design Sim
 catch {gui_list_expand -id ${Hier.1} TOP}
 catch {gui_list_expand -id ${Hier.1} TOP.spp}
-catch {gui_list_select -id ${Hier.1} {TOP.spp.slow}}
+catch {gui_list_select -id ${Hier.1} {TOP.spp.RX}}
 gui_view_scroll -id ${Hier.1} -vertical -set 0
 gui_view_scroll -id ${Hier.1} -horizontal -set 0
 
 # Data 'Data.1'
 gui_list_set_filter -id ${Data.1} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {LowPower 1} {Parameter 1} {All 1} {Aggregate 1} {LibBaseMember 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {BaseMembers 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
 gui_list_set_filter -id ${Data.1} -text {*}
-gui_list_show_data -id ${Data.1} {TOP.spp.slow}
+gui_list_show_data -id ${Data.1} {TOP.spp.RX}
 gui_view_scroll -id ${Data.1} -vertical -set 0
 gui_view_scroll -id ${Data.1} -horizontal -set 0
 gui_view_scroll -id ${Hier.1} -vertical -set 0
@@ -159,8 +168,10 @@ set origWaveHeight [gui_get_pref_value -category Wave -key waveRowHeight]
 gui_list_set_height -id Wave -height 25
 set origGroupCreationState [gui_list_create_group_when_add -wave]
 gui_list_create_group_when_add -wave -disable
-gui_wv_zoom_timerange -id ${Wave.1} 3523 3863
-gui_list_add_group -id ${Wave.1} -after {New Group} {slow}
+gui_wv_zoom_timerange -id ${Wave.1} 49830 50171
+gui_list_add_group -id ${Wave.1} -after {New Group} {spp}
+gui_list_add_group -id ${Wave.1} -after {New Group} {RX}
+gui_list_select -id ${Wave.1} {TOP.spp.finrx }
 gui_seek_criteria -id ${Wave.1} {Any Edge}
 
 
@@ -176,9 +187,9 @@ if { $groupExD } {
 }
 gui_list_set_filter -id ${Wave.1} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {Parameter 1} {All 1} {Aggregate 1} {LibBaseMember 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {BaseMembers 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
 gui_list_set_filter -id ${Wave.1} -text {*}
-gui_list_set_insertion_bar  -id ${Wave.1} -group slow  -position in
+gui_list_set_insertion_bar  -id ${Wave.1} -group RX  -position in
 
-gui_view_scroll -id ${Wave.1} -vertical -set 0
+gui_view_scroll -id ${Wave.1} -vertical -set 231
 gui_show_grid -id ${Wave.1} -enable false
 # Restore toplevel window zorder
 # The toplevel window could be closed if it has no view/pane

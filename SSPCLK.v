@@ -25,10 +25,17 @@ module SSPCLK(
     output SSPCLK
     );
     
-    reg div2 = 0;
     
+    reg reseted;
+    reg div2;
     always@(posedge PCLK)
     begin
+        if (!CLEAR_B)
+        begin
+            reseted <= 1;
+        end
+        div2 <= 1;
+        if (reseted <= 1)
             div2 <= !div2;
     end
     

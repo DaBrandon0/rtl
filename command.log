@@ -8802,3 +8802,5 @@ gui_start
 #@ # -- End source /usr/local/packages/synopsys_2022/syn/T-2022.03-SP2/auxx/tcllib/lib/iwidgets4.1/iwidgets.tcl
 
 gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {LeafCells}
+read_file -format verilog {/home/ecelrc/students/blui/vlsi1/lab3/rtl/ClockMU.v /home/ecelrc/students/blui/vlsi1/lab3/rtl/FIFORX.v /home/ecelrc/students/blui/vlsi1/lab3/rtl/FIFOTX.v /home/ecelrc/students/blui/vlsi1/lab3/rtl/wish_slave.v /home/ecelrc/students/blui/vlsi1/lab3/rtl/wish_master.v /home/ecelrc/students/blui/vlsi1/lab3/rtl/SSPCLK.v /home/ecelrc/students/blui/vlsi1/lab3/rtl/SSP.v}
+read_file -format verilog {/home/ecelrc/students/blui/vlsi1/lab3/rtl/top.v}

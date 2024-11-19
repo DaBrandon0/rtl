@@ -63,6 +63,7 @@ module FIFORX(
            end
         end
     end
+
     assign SSPRXINTR = (fifopoint == 4);
     assign PRDATA = fifomem[0];
 endmodule
