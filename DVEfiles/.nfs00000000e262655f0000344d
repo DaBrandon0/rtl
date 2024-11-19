@@ -1,0 +1,645 @@
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Nov 19 16:45 2024
+VCD+ Writer T-2022.06_Full64 Copyright (c) 1991-2022 by Synopsys Inc.
+The file '/home/ecelrc/students/blui/vlsi1/lab3/rtl/inter.vpd' was opened successfully.
+  0: xxxxxxxx
+  1: xxxxxxxx
+  2: xxxxxxxx
+  3: xxxxxxxx
+  4: xxxxxxxx
+  5: xxxxxxxx
+  6: xxxxxxxx
+  7: xxxxxxxx
+  8: xxxxxxxx
+  9: xxxxxxxx
+ 10: xxxxxxxx
+ 11: xxxxxxxx
+ 12: xxxxxxxx
+ 13: xxxxxxxx
+ 14: xxxxxxxx
+ 15: xxxxxxxx
+ 16: xxxxxxxx
+ 17: xxxxxxxx
+ 18: xxxxxxxx
+ 19: xxxxxxxx
+ 20: xxxxxxxx
+ 21: xxxxxxxx
+ 22: xxxxxxxx
+ 23: xxxxxxxx
+ 24: xxxxxxxx
+ 25: xxxxxxxx
+ 26: xxxxxxxx
+ 27: xxxxxxxx
+ 28: xxxxxxxx
+ 29: xxxxxxxx
+ 30: xxxxxxxx
+ 31: xxxxxxxx
+ 32: xxxxxxxx
+ 33: xxxxxxxx
+ 34: xxxxxxxx
+ 35: xxxxxxxx
+ 36: xxxxxxxx
+ 37: xxxxxxxx
+ 38: xxxxxxxx
+ 39: xxxxxxxx
+ 40: xxxxxxxx
+ 41: xxxxxxxx
+ 42: xxxxxxxx
+ 43: xxxxxxxx
+ 44: xxxxxxxx
+ 45: xxxxxxxx
+ 46: xxxxxxxx
+ 47: xxxxxxxx
+ 48: xxxxxxxx
+ 49: xxxxxxxx
+ 50: xxxxxxxx
+ 51: xxxxxxxx
+ 52: xxxxxxxx
+ 53: xxxxxxxx
+ 54: xxxxxxxx
+ 55: xxxxxxxx
+ 56: xxxxxxxx
+ 57: xxxxxxxx
+ 58: xxxxxxxx
+ 59: xxxxxxxx
+ 60: xxxxxxxx
+ 61: xxxxxxxx
+ 62: xxxxxxxx
+ 63: xxxxxxxx
+10000 s
+cycle:           0 aBus: xxxxxxx  dBus:xxxxxxxx 
+cycle:           0 aBus: 0000000  dBus:e3a0207a 
+cycle:           1 aBus: 0000000  dBus:e3a0207a 
+cycle:           2 aBus: 0000004  dBus:e3a00000 
+cycle:           3 aBus: 0000008  dBus:e3a06010 
+cycle:           4 aBus: 000000c  dBus:e3a07001 
+cycle:           5 aBus: 0000010  dBus:e0808617 
+cycle:           6 aBus: 0000014  dBus:e0879008 
+cycle:           7 aBus: 0000018  dBus:e3a00000 
+cycle:           8 aBus: 000001c  dBus:e3a00000 
+cycle:           9 aBus: 000001c  dBus:e4882000 
+cycle:          10 aBus: 0000020  dBus:e3a03028 
+cycle:          11 aBus: 0000024  dBus:e4883000 
+cycle:          12 aBus: 0010000  dBus:0000007a 
+cycle:          13 aBus: 0000028  dBus:e3a040ff 
+cycle:          14 aBus: 000002c  dBus:e3a050b7 
+cycle:          15 aBus: 0010000  dBus:00000028 
+cycle:          16 aBus: 0000030  dBus:e4884000 
+cycle:          17 aBus: 0000034  dBus:e4885000 
+cycle:          18 aBus: 0000038  dBus:e4882000 
+cycle:          19 aBus: 0010000  dBus:000000ff 
+cycle:          20 aBus: 000003c  dBus:e4883000 
+cycle:          21 aBus: 0010000  dBus:000000b7 
+cycle:          22 aBus: 0000040  dBus:e4884000 
+cycle:          23 aBus: 0010000  dBus:0000007a 
+cycle:          24 aBus: 0000044  dBus:e3a07000 
+cycle:          25 aBus: 0010000  dBus:00000028 
+cycle:          26 aBus: 0000048  dBus:e3a07000 
+cycle:          27 aBus: 0010000  dBus:000000ff 
+cycle:          28 aBus: 000004c  dBus:e3a07000 
+cycle:          29 aBus: 0000050  dBus:e3a07000 
+cycle:          30 aBus: 0000054  dBus:e3a07000 
+cycle:          31 aBus: 0000058  dBus:e3a07000 
+cycle:          32 aBus: 000005c  dBus:e3a07000 
+cycle:          33 aBus: 0000060  dBus:e4990000 
+cycle:          34 aBus: 0000064  dBus:e3a07000 
+cycle:          35 aBus: 0000068  dBus:e3a07000 
+cycle:          36 aBus: 0010001  dBus:zzzzzzzz 
+cycle:          37 aBus: 000006c  dBus:e3a07000 
+cycle:          38 aBus: 000006c  dBus:e3a07000 
+cycle:          39 aBus: 0000070  dBus:e3a07000 
+cycle:          40 aBus: 0000074  dBus:e3a07000 
+cycle:          41 aBus: 0000078  dBus:e3a07000 
+cycle:          42 aBus: 000007c  dBus:e3a07000 
+cycle:          43 aBus: 0000080  dBus:e3a07000 
+cycle:          44 aBus: 0000084  dBus:e4991000 
+cycle:          45 aBus: 0000088  dBus:e3a07000 
+cycle:          46 aBus: 000008c  dBus:e3a07000 
+cycle:          47 aBus: 0010001  dBus:zzzzzzzz 
+cycle:          48 aBus: 0000090  dBus:e3a07000 
+cycle:          49 aBus: 0000090  dBus:e3a07000 
+cycle:          50 aBus: 0000094  dBus:e3a07000 
+cycle:          51 aBus: 0000098  dBus:e3a07000 
+cycle:          52 aBus: 000009c  dBus:e3a07000 
+cycle:          53 aBus: 00000a0  dBus:e3a07000 
+cycle:          54 aBus: 00000a4  dBus:e3a07000 
+cycle:          55 aBus: 00000a8  dBus:e4992000 
+cycle:          56 aBus: 00000ac  dBus:e3a07000 
+cycle:          57 aBus: 00000b0  dBus:e3a07000 
+cycle:          58 aBus: 0010001  dBus:zzzzzzzz 
+cycle:          59 aBus: 00000b4  dBus:e3a07000 
+cycle:          60 aBus: 00000b4  dBus:e3a07000 
+cycle:          61 aBus: 00000b8  dBus:e3a07000 
+cycle:          62 aBus: 00000bc  dBus:e3a07000 
+cycle:          63 aBus: 00000c0  dBus:e3a07000 
+cycle:          64 aBus: 00000c4  dBus:e3a07000 
+cycle:          65 aBus: 00000c8  dBus:e3a07000 
+cycle:          66 aBus: 00000cc  dBus:e3a07000 
+cycle:          67 aBus: 00000d0  dBus:e3a07000 
+cycle:          68 aBus: 00000d4  dBus:e3a07000 
+cycle:          69 aBus: 00000d8  dBus:e3a07000 
+cycle:          70 aBus: 00000dc  dBus:e3a07000 
+cycle:          71 aBus: 00000e0  dBus:e3a07000 
+cycle:          72 aBus: 00000e4  dBus:e4993000 
+cycle:          73 aBus: 00000e8  dBus:e3a07000 
+cycle:          74 aBus: 00000ec  dBus:e3a07000 
+cycle:          75 aBus: 0010001  dBus:zzzzzzzz 
+cycle:          76 aBus: 00000f0  dBus:e3a07000 
+cycle:          77 aBus: 00000f0  dBus:e3a07000 
+cycle:          78 aBus: 00000f4  dBus:e3a07000 
+cycle:          79 aBus: 00000f8  dBus:e3a07000 
+cycle:          80 aBus: 00000fc  dBus:e3a07000 
+20000 s
+cycle:          81 aBus: 0000100  dBus:e3a07000 
+cycle:          82 aBus: 0000104  dBus:e3a07000 
+cycle:          83 aBus: 0000108  dBus:e3a07000 
+cycle:          84 aBus: 000010c  dBus:e3a07000 
+cycle:          85 aBus: 0000110  dBus:e3a07000 
+cycle:          86 aBus: 0000114  dBus:e3a07000 
+cycle:          87 aBus: 0000118  dBus:e3a07000 
+cycle:          88 aBus: 000011c  dBus:e3a07000 
+cycle:          89 aBus: 0000120  dBus:e4994000 
+cycle:          90 aBus: 0000124  dBus:e3a07000 
+cycle:          91 aBus: 0000128  dBus:e3a07000 
+cycle:          92 aBus: 0010001  dBus:zzzzzzzz 
+cycle:          93 aBus: 000012c  dBus:e3a07000 
+cycle:          94 aBus: 000012c  dBus:e3a07000 
+cycle:          95 aBus: 0000130  dBus:e3a07000 
+cycle:          96 aBus: 0000134  dBus:e3a07000 
+cycle:          97 aBus: 0000138  dBus:e3a07000 
+cycle:          98 aBus: 000013c  dBus:e3a07000 
+cycle:          99 aBus: 0000140  dBus:e3a07000 
+cycle:         100 aBus: 0000144  dBus:e4995000 
+cycle:         101 aBus: 0000148  dBus:e3a07000 
+cycle:         102 aBus: 000014c  dBus:e3a07000 
+cycle:         103 aBus: 0010001  dBus:zzzzzzzz 
+cycle:         104 aBus: 0000150  dBus:e3a07000 
+cycle:         105 aBus: 0000150  dBus:e3a07000 
+cycle:         106 aBus: 0000154  dBus:e3a07000 
+cycle:         107 aBus: 0000158  dBus:e3a07000 
+cycle:         108 aBus: 000015c  dBus:e3a07000 
+cycle:         109 aBus: 0000160  dBus:e3a07000 
+cycle:         110 aBus: 0000164  dBus:e3a07000 
+cycle:         111 aBus: 0000168  dBus:e4996000 
+cycle:         112 aBus: 000016c  dBus:eafffffe 
+cycle:         113 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         114 aBus: 0010001  dBus:zzzzzzzz 
+cycle:         115 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         116 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         117 aBus: 000016c  dBus:eafffffe 
+cycle:         118 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         119 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         120 aBus: 000016c  dBus:eafffffe 
+cycle:         121 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         122 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         123 aBus: 000016c  dBus:eafffffe 
+cycle:         124 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         125 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         126 aBus: 000016c  dBus:eafffffe 
+cycle:         127 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         128 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         129 aBus: 000016c  dBus:eafffffe 
+cycle:         130 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         131 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         132 aBus: 000016c  dBus:eafffffe 
+cycle:         133 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         134 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         135 aBus: 000016c  dBus:eafffffe 
+cycle:         136 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         137 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         138 aBus: 000016c  dBus:eafffffe 
+cycle:         139 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         140 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         141 aBus: 000016c  dBus:eafffffe 
+cycle:         142 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         143 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         144 aBus: 000016c  dBus:eafffffe 
+cycle:         145 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         146 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         147 aBus: 000016c  dBus:eafffffe 
+cycle:         148 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         149 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         150 aBus: 000016c  dBus:eafffffe 
+cycle:         151 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         152 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         153 aBus: 000016c  dBus:eafffffe 
+cycle:         154 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         155 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         156 aBus: 000016c  dBus:eafffffe 
+cycle:         157 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         158 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         159 aBus: 000016c  dBus:eafffffe 
+cycle:         160 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         161 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         162 aBus: 000016c  dBus:eafffffe 
+cycle:         163 aBus: 0000170  dBus:xxxxxxxx 
+30000 s
+cycle:         164 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         165 aBus: 000016c  dBus:eafffffe 
+cycle:         166 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         167 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         168 aBus: 000016c  dBus:eafffffe 
+cycle:         169 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         170 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         171 aBus: 000016c  dBus:eafffffe 
+cycle:         172 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         173 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         174 aBus: 000016c  dBus:eafffffe 
+cycle:         175 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         176 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         177 aBus: 000016c  dBus:eafffffe 
+cycle:         178 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         179 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         180 aBus: 000016c  dBus:eafffffe 
+cycle:         181 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         182 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         183 aBus: 000016c  dBus:eafffffe 
+cycle:         184 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         185 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         186 aBus: 000016c  dBus:eafffffe 
+cycle:         187 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         188 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         189 aBus: 000016c  dBus:eafffffe 
+cycle:         190 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         191 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         192 aBus: 000016c  dBus:eafffffe 
+cycle:         193 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         194 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         195 aBus: 000016c  dBus:eafffffe 
+cycle:         196 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         197 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         198 aBus: 000016c  dBus:eafffffe 
+cycle:         199 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         200 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         201 aBus: 000016c  dBus:eafffffe 
+cycle:         202 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         203 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         204 aBus: 000016c  dBus:eafffffe 
+cycle:         205 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         206 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         207 aBus: 000016c  dBus:eafffffe 
+cycle:         208 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         209 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         210 aBus: 000016c  dBus:eafffffe 
+cycle:         211 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         212 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         213 aBus: 000016c  dBus:eafffffe 
+cycle:         214 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         215 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         216 aBus: 000016c  dBus:eafffffe 
+cycle:         217 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         218 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         219 aBus: 000016c  dBus:eafffffe 
+cycle:         220 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         221 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         222 aBus: 000016c  dBus:eafffffe 
+cycle:         223 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         224 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         225 aBus: 000016c  dBus:eafffffe 
+cycle:         226 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         227 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         228 aBus: 000016c  dBus:eafffffe 
+cycle:         229 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         230 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         231 aBus: 000016c  dBus:eafffffe 
+cycle:         232 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         233 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         234 aBus: 000016c  dBus:eafffffe 
+cycle:         235 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         236 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         237 aBus: 000016c  dBus:eafffffe 
+cycle:         238 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         239 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         240 aBus: 000016c  dBus:eafffffe 
+cycle:         241 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         242 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         243 aBus: 000016c  dBus:eafffffe 
+cycle:         244 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         245 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         246 aBus: 000016c  dBus:eafffffe 
+40000 s
+cycle:         247 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         248 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         249 aBus: 000016c  dBus:eafffffe 
+cycle:         250 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         251 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         252 aBus: 000016c  dBus:eafffffe 
+cycle:         253 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         254 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         255 aBus: 000016c  dBus:eafffffe 
+cycle:         256 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         257 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         258 aBus: 000016c  dBus:eafffffe 
+cycle:         259 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         260 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         261 aBus: 000016c  dBus:eafffffe 
+cycle:         262 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         263 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         264 aBus: 000016c  dBus:eafffffe 
+cycle:         265 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         266 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         267 aBus: 000016c  dBus:eafffffe 
+cycle:         268 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         269 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         270 aBus: 000016c  dBus:eafffffe 
+cycle:         271 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         272 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         273 aBus: 000016c  dBus:eafffffe 
+cycle:         274 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         275 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         276 aBus: 000016c  dBus:eafffffe 
+cycle:         277 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         278 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         279 aBus: 000016c  dBus:eafffffe 
+cycle:         280 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         281 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         282 aBus: 000016c  dBus:eafffffe 
+cycle:         283 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         284 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         285 aBus: 000016c  dBus:eafffffe 
+cycle:         286 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         287 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         288 aBus: 000016c  dBus:eafffffe 
+cycle:         289 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         290 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         291 aBus: 000016c  dBus:eafffffe 
+cycle:         292 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         293 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         294 aBus: 000016c  dBus:eafffffe 
+cycle:         295 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         296 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         297 aBus: 000016c  dBus:eafffffe 
+cycle:         298 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         299 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         300 aBus: 000016c  dBus:eafffffe 
+cycle:         301 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         302 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         303 aBus: 000016c  dBus:eafffffe 
+cycle:         304 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         305 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         306 aBus: 000016c  dBus:eafffffe 
+cycle:         307 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         308 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         309 aBus: 000016c  dBus:eafffffe 
+cycle:         310 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         311 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         312 aBus: 000016c  dBus:eafffffe 
+cycle:         313 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         314 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         315 aBus: 000016c  dBus:eafffffe 
+cycle:         316 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         317 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         318 aBus: 000016c  dBus:eafffffe 
+cycle:         319 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         320 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         321 aBus: 000016c  dBus:eafffffe 
+cycle:         322 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         323 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         324 aBus: 000016c  dBus:eafffffe 
+cycle:         325 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         326 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         327 aBus: 000016c  dBus:eafffffe 
+cycle:         328 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         329 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         330 aBus: 000016c  dBus:eafffffe 
+50000 s
+cycle:         331 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         332 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         333 aBus: 000016c  dBus:eafffffe 
+cycle:         334 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         335 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         336 aBus: 000016c  dBus:eafffffe 
+cycle:         337 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         338 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         339 aBus: 000016c  dBus:eafffffe 
+cycle:         340 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         341 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         342 aBus: 000016c  dBus:eafffffe 
+cycle:         343 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         344 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         345 aBus: 000016c  dBus:eafffffe 
+cycle:         346 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         347 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         348 aBus: 000016c  dBus:eafffffe 
+cycle:         349 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         350 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         351 aBus: 000016c  dBus:eafffffe 
+cycle:         352 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         353 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         354 aBus: 000016c  dBus:eafffffe 
+cycle:         355 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         356 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         357 aBus: 000016c  dBus:eafffffe 
+cycle:         358 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         359 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         360 aBus: 000016c  dBus:eafffffe 
+cycle:         361 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         362 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         363 aBus: 000016c  dBus:eafffffe 
+cycle:         364 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         365 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         366 aBus: 000016c  dBus:eafffffe 
+cycle:         367 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         368 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         369 aBus: 000016c  dBus:eafffffe 
+cycle:         370 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         371 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         372 aBus: 000016c  dBus:eafffffe 
+cycle:         373 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         374 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         375 aBus: 000016c  dBus:eafffffe 
+cycle:         376 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         377 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         378 aBus: 000016c  dBus:eafffffe 
+cycle:         379 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         380 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         381 aBus: 000016c  dBus:eafffffe 
+cycle:         382 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         383 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         384 aBus: 000016c  dBus:eafffffe 
+cycle:         385 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         386 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         387 aBus: 000016c  dBus:eafffffe 
+cycle:         388 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         389 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         390 aBus: 000016c  dBus:eafffffe 
+cycle:         391 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         392 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         393 aBus: 000016c  dBus:eafffffe 
+cycle:         394 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         395 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         396 aBus: 000016c  dBus:eafffffe 
+cycle:         397 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         398 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         399 aBus: 000016c  dBus:eafffffe 
+cycle:         400 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         401 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         402 aBus: 000016c  dBus:eafffffe 
+cycle:         403 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         404 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         405 aBus: 000016c  dBus:eafffffe 
+cycle:         406 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         407 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         408 aBus: 000016c  dBus:eafffffe 
+cycle:         409 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         410 aBus: 0000174  dBus:xxxxxxxx 
+cycle:         411 aBus: 000016c  dBus:eafffffe 
+cycle:         412 aBus: 0000170  dBus:xxxxxxxx 
+cycle:         413 aBus: 0000174  dBus:xxxxxxxx 
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Nov 19 16:47 2024
+VCD+ Writer T-2022.06_Full64 Copyright (c) 1991-2022 by Synopsys Inc.
+The file '/home/ecelrc/students/blui/vlsi1/lab3/rtl/inter.vpd' was opened successfully.
+  0: xxxxxxxx
+  1: xxxxxxxx
+  2: xxxxxxxx
+  3: xxxxxxxx
+  4: xxxxxxxx
+  5: xxxxxxxx
+  6: xxxxxxxx
+  7: xxxxxxxx
+  8: xxxxxxxx
+  9: xxxxxxxx
+ 10: xxxxxxxx
+ 11: xxxxxxxx
+ 12: xxxxxxxx
+ 13: xxxxxxxx
+ 14: xxxxxxxx
+ 15: xxxxxxxx
+ 16: xxxxxxxx
+ 17: xxxxxxxx
+ 18: xxxxxxxx
+ 19: xxxxxxxx
+ 20: xxxxxxxx
+ 21: xxxxxxxx
+ 22: xxxxxxxx
+ 23: xxxxxxxx
+ 24: xxxxxxxx
+ 25: xxxxxxxx
+ 26: xxxxxxxx
+ 27: xxxxxxxx
+ 28: xxxxxxxx
+ 29: xxxxxxxx
+ 30: xxxxxxxx
+ 31: xxxxxxxx
+ 32: xxxxxxxx
+ 33: xxxxxxxx
+ 34: xxxxxxxx
+ 35: xxxxxxxx
+ 36: xxxxxxxx
+ 37: xxxxxxxx
+ 38: xxxxxxxx
+ 39: xxxxxxxx
+ 40: xxxxxxxx
+ 41: xxxxxxxx
+ 42: xxxxxxxx
+ 43: xxxxxxxx
+ 44: xxxxxxxx
+ 45: xxxxxxxx
+ 46: xxxxxxxx
+ 47: xxxxxxxx
+ 48: xxxxxxxx
+ 49: xxxxxxxx
+ 50: xxxxxxxx
+ 51: xxxxxxxx
+ 52: xxxxxxxx
+ 53: xxxxxxxx
+ 54: xxxxxxxx
+ 55: xxxxxxxx
+ 56: xxxxxxxx
+ 57: xxxxxxxx
+ 58: xxxxxxxx
+ 59: xxxxxxxx
+ 60: xxxxxxxx
+ 61: xxxxxxxx
+ 62: xxxxxxxx
+ 63: xxxxxxxx
+10000 s
+cycle:           0 aBus: xxxxxxx  dBus:xxxxxxxx 
+cycle:           0 aBus: 0000000  dBus:e3a0207a 
+cycle:           1 aBus: 0000000  dBus:e3a0207a 
+cycle:           2 aBus: 0000004  dBus:e3a00000 
+cycle:           3 aBus: 0000008  dBus:e3a06010 
+cycle:           4 aBus: 000000c  dBus:e3a07001 
+cycle:           5 aBus: 0000010  dBus:e0808617 
+cycle:           6 aBus: 0000014  dBus:e0879008 
+cycle:           7 aBus: 0000018  dBus:e3a00000 
+cycle:           8 aBus: 000001c  dBus:e3a00000 
+cycle:           9 aBus: 000001c  dBus:e4882000 
+cycle:          10 aBus: 0000020  dBus:e3a03028 
+cycle:          11 aBus: 0000024  dBus:e4883000 
+cycle:          12 aBus: 0010000  dBus:0000007a 
+cycle:          13 aBus: 0000028  dBus:e3a040ff 
+cycle:          14 aBus: 000002c  dBus:e3a050b7 
+cycle:          15 aBus: 0010000  dBus:00000028 
+cycle:          16 aBus: 0000030  dBus:e4884000 
+cycle:          17 aBus: 0000034  dBus:e4885000 
+cycle:          18 aBus: 0000038  dBus:e4882000 
+cycle:          19 aBus: 0010000  dBus:000000ff 
+cycle:          20 aBus: 000003c  dBus:e4883000 
+cycle:          21 aBus: 0010000  dBus:000000b7 
+cycle:          22 aBus: 0000040  dBus:e4884000 
+cycle:          23 aBus: 0010000  dBus:0000007a 
+cycle:          24 aBus: 0000044  dBus:e3a07000 
+cycle:          25 aBus: 0010000  dBus:00000028 
+cycle:          26 aBus: 0000048  dBus:e3a07000 
+cycle:          27 aBus: 0010000  dBus:000000ff 
+cycle:          28 aBus: 000004c  dBus:e3a07000 
+cycle:          29 aBus: 0000050  dBus:e3a07000 
+cycle:          30 aBus: 0000054  dBus:e3a07000 
+cycle:          31 aBus: 0000058  dBus:e3a07000 
+cycle:          32 aBus: 000005c  dBus:e3a07000 
+cycle:          33 aBus: 0000060  dBus:e4990000 
+cycle:          34 aBus: 0000064  dBus:e3a07000 
+cycle:          35 aBus: 0000068  dBus:e3a07000 
+cycle:          36 aBus: 0010001  dBus:zzzzzzzz 
+cycle:          37 aBus: 000006c  dBus:e3a07000 
+cycle:          38 aBus: 000006c  dBus:e3a07000 
+cycle:          39 aBus: 0000070  dBus:e3a07000 
+cycle:          40 aBus: 0000074  dBus:e3a07000 
+cycle:          41 aBus: 0000078  dBus:e3a07000 
+cycle:          42 aBus: 000007c  dBus:e3a07000 
+cycle:          43 aBus: 0000080  dBus:e3a07000 
+cycle:          44 aBus: 0000084  dBus:e4991000 
+cycle:          45 aBus: 0000088  dBus:e3a07000 
+cycle:          46 aBus: 000008c  dBus:e3a07000 
+cycle:          47 aBus: 0010001  dBus:zzzzzzzz 
+cycle:          48 aBus: 0000090  dBus:e3a07000 
+cycle:          49 aBus: 0000090  dBus:e3a07000 
+cycle:          50 aBus: 0000094  dBus:e3a07000 
+cycle:          51 aBus: 0000098  dBus:e3a07000 
+cycle:          52 aBus: 000009c  dBus:e3a07000 
+cycle:          53 aBus: 00000a0  dBus:e3a07000 
+cycle:          54 aBus: 00000a4  dBus:e3a07000 
+cycle:          55 aBus: 00000a8  dBus:e4992000 
+cycle:          56 aBus: 00000ac  dBus:e3a07000 
+cycle:          57 aBus: 00000b0  dBus:e3a07000 
+cycle:          58 aBus: 0010001  dBus:zzzzzzzz 
+cycle:          59 aBus: 00000b4  dBus:e3a07000 
+cycle:          60 aBus: 00000b4  dBus:e3a07000 
+cycle:          61 aBus: 00000b8  dBus:e3a07000 
+cycle:          62 aBus: 00000bc  dBus:e3a07000 
+cycle:          63 aBus: 00000c0  dBus:e3a07000 
+cycle:          64 aBus: 00000c4  dBus:e3a07000 
+cycle:          65 aBus: 00000c8  dBus:e3a07000 
+cycle:          66 aBus: 00000cc  dBus:e3a07000 
+cycle:          67 aBus: 00000d0  dBus:e3a07000 
+cycle:          68 aBus: 00000d4  dBus:e3a07000 
+cycle:          69 aBus: 00000d8  dBus:e3a07000 
+cycle:          70 aBus: 00000dc  dBus:e3a07000 
+cycle:          71 aBus: 00000e0  dBus:e3a07000 
+cycle:          72 aBus: 00000e4  dBus:e4993000 
+cycle:          73 aBus: 00000e8  dBus:e3a07000 
+cycle:          74 aBus: 00000ec  dBus:e3a07000 
+cycle:          75 aBus: 0010001  dBus:zzzzzzzz 
+cycle:          76 aBus: 00000f0  dBus:e3a07000 
+cycle:          77 aBus: 00000f0  dBus:e3a07000 
+cycle:          78 aBus: 00000f4  dBus:e3a07000 
+cycle:          79 aBus: 00000f8  dBus:e3a07000 
+cycle:          80 aBus: 00000fc  dBus:e3a07000 
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10000
+CPU Time:      0.150 seconds;       Data structure size:   0.7Mb
+Tue Nov 19 16:58:34 2024
